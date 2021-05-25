@@ -13,7 +13,7 @@ svn co http://forge.ipsl.jussieu.fr/nemo/svn/NEMO/releases/release-4.0/r4.0-HEAD
 
 ## NEMO/tests/MYVORTEX
 
-I created my own version of NEMO/tests/VORTEX without any reference to AGRIF routines in code.
+I created my own version of NEMO/tests/VORTEX without any reference to AGRIF routines in code, as simply removing key_AGRIF from cpp_VORTEX.fcm did not work (presumably due to reference to AGRIF routines in MY_SRC/domvvl.F90)
 
 # References
 
